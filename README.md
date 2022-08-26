@@ -1,1 +1,2 @@
 # The-best-train-route
+This was my initial project for a job I was never hired for. The goal was to create an application that would collect train data (train number, start and end stations, departure and arrival times, and fares) from an Excel spreadsheet and calculate the best route through all available stations. I created three separate projects to calculate the best cost route, the fastest route considering only the travel time (not including the waiting time for the next train), and the fastest route.
