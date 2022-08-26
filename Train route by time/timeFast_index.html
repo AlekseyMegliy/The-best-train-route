@@ -1,0 +1,12 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+<script src = "timeTrainFaster.js"> </script> 
+<p>Лучший маршрут по времени в дороге и времени ожидания:</p>
+<form enctype="multipart/form-data">
+    <input id="upload" type=file  name="files[]">
+</form>
+    <textarea class="form-control" rows=10 cols=120 id="xlx_json"></textarea>
+    <script>
+        document.getElementById('upload').addEventListener('change', handleFileSelect, false);
+    </script>
